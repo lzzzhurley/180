@@ -1,0 +1,49 @@
+#top {
+  height: 100vh;
+  position: relative;
+  background-color: black;
+}
+
+#bottom {
+  height: 100vh;
+  position: relative;
+  background-color: white;
+}
+
+.fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.fa-chevron-up {
+  position: absolute;
+  top: 9px;
+  color: black;
+  z-index: 2;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.flip {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.flip-180 {
+  -webkit-transform: translateY(65px) rotate(180deg);
+  -moz-transform: translateY(65px) rotate(180deg);
+  -o-transform: translateY(65px) rotate(180deg);
+  transform: translateY(65px) rotate(180deg);
+  color: black;
+}
